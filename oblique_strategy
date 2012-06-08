@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby -wKU
+
+strategies = File.readlines(File.expand_path("~/.strategies"))
+puts "\n\n\n\n#{strategies.shuffle.first.chomp}\n\n\n\n\n"
