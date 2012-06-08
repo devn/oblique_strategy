@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo; echo; echo; echo; sed -n $((RANDOM%$(wc -l < ./.strategies)+1))p ./.strategies; echo; echo; echo; echo
+echo; echo; echo; echo; sed -n $((RANDOM%$(wc -l < ~/.strategies)+1))p ~/.strategies; echo; echo; echo; echo
